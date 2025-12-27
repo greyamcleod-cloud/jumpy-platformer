@@ -237,41 +237,41 @@ function animateIdle () {
     animation.attachAnimation(hero, mainIdleLeft)
     mainIdleLeft.addAnimationFrame(img`
         . . . . . . . . . . . . . . . . 
-        . . . f f f f f f f f f f . . . 
-        . . f e e e e e e e e e e f . . 
-        . f e e e e e e e e e e e e f . 
-        . f d d d d d d d d d e e d f . 
-        . f d d f d d d d f d d e d f . 
-        . f d d f d d d d f d d d e f . 
-        . f d d f d d d d f d d d f . . 
-        . f d d d d d d d d d d d f . . 
-        . f a c c c c c c c c a b f . . 
-        . f d d c c c c c c d d d f . . 
-        . f d f f f b b f f f d d f . . 
-        . . f a a a a a a a a a b f . . 
-        . . . f a a b f f a a b f . . . 
-        . . . f a a b f f a a b f . . . 
-        . . . . f f f . . f f f . . . . 
+        . f f f f f f . . . . . . . . . 
+        f f d d d d f f . . . . . . . . 
+        f d d d d d d f . . . . f f . . 
+        f d f d d f d f . . f f f f f . 
+        f d d f f d d f f f f 3 3 f f . 
+        f f f f f f f f f 3 3 3 3 3 f f 
+        f f f f f f 3 3 3 3 3 3 3 3 3 f 
+        f d d d d f f 3 3 3 3 3 3 3 3 f 
+        f f f f f f 3 3 3 3 3 3 3 3 3 f 
+        f f f f f f f f f f f f f f f f 
+        f 8 8 8 8 8 8 f 8 f f d d d d f 
+        f 8 8 f f f f 8 8 f f f d d f f 
+        f 8 8 f . . f 8 8 f . f f f f f 
+        f 8 8 f . . f 8 8 f . . . . . . 
+        . f f . . . . f f . . . . . . . 
         `)
     mainIdleRight = animation.createAnimation(ActionKind.Walking, 100)
     animation.attachAnimation(hero, mainIdleRight)
     mainIdleRight.addAnimationFrame(img`
         . . . . . . . . . . . . . . . . 
-        . . . f f f f f f f f f f . . . 
-        . . f e e e e e e e e e e f . . 
-        . f e e e e e e e e e e e e f . 
-        . f d e e d d d d d d d d d f . 
-        . f d e d d f d d d d f d d f . 
-        . f e d d d f d d d d f d d f . 
-        . . f d d d f d d d d f d d f . 
-        . . f d d d d d d d d d d d f . 
-        . . f b a c c c c c c c c a f . 
-        . . f d d d c c c c c c d d f . 
-        . . f d d f f f b b f f f d f . 
-        . . f b a a a a a a a a a f . . 
-        . . . f b a a f f b a a f . . . 
-        . . . f b a a f f b a a f . . . 
-        . . . . f f f . . f f f . . . . 
+        . f f f f f f . . . . . . . . . 
+        f f d d d d f f . . . . . . . . 
+        f d d d d d d f . . . . f f . . 
+        f d f d d f d f . . f f f f f . 
+        f d d f f d d f f f f 3 3 f f . 
+        f f f f f f f f f 3 3 3 3 3 f f 
+        f f f f f f 3 3 3 3 3 3 3 3 3 f 
+        f d d d d f f 3 3 3 3 3 3 3 3 f 
+        f f f f f f 3 3 3 3 3 3 3 3 3 f 
+        f f f f f f f f f f f f f f f f 
+        f 8 8 8 8 8 8 f 8 f f d d d d f 
+        f 8 8 f f f f 8 8 f f f d d f f 
+        f 8 8 f . . f 8 8 f . f f f f f 
+        f 8 8 f . . f 8 8 f . . . . . . 
+        . f f . . . . f f . . . . . . . 
         `)
 }
 function setLevelTileMap (level: number) {
